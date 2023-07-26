@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.body {
+    height: 89vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fText {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer {
+    height: 68vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+
+.page_controler {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.forSearch {
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.active1 {
+    filter: blur(5px);
+    pointer-events: none;
+    user-select: none;
+}
+
+.afterSearch {
+    position: absolute;
+    visibility: hidden;
+}
+
+.active2 {
+    visibility: visible;
+    height: 85vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    /* position: relative; */
+}
+
+.active2 .card {
+    /* background-color: black;
+    color: white; */
+}
